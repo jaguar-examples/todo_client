@@ -1,17 +1,17 @@
 <!-- Components info: https://webdev.dartlang.org/components -->
 <div>
-    <form action="/user/signup" method="post">
+    <form action="/api/user/signup" method="post">
         <div class="form-group">
             <label for="email">Email&nbsp;*</label>
-            <input type="text" class="form-control" id="email" required>
+            <input type="text" class="form-control" id="email" required name="email">
         </div>
         <div class="form-group">
-            <label for="name">Name&nbsp;*</label>
-            <input type="text" class="form-control" id="name">
+            <label for="username">Name&nbsp;*</label>
+            <input type="text" class="form-control" id="username" required name="username">
         </div>
         <div class="form-group">
             <label for="password">Password&nbsp;*</label>
-            <input type="password" class="form-control" id="password">
+            <input type="password" class="form-control" id="password" required name="password">
         </div>
         <div class="row">
             <div class="col-auto">
