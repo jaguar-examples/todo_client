@@ -11,6 +11,7 @@ final JsonRepo repo = new JsonRepo()
 
 @GenSerializer()
 class TodoSerializer extends Serializer<Todo> with _$TodoSerializer {
+  static final serializer = TodoSerializer();
 }
 
 @GenSerializer()
