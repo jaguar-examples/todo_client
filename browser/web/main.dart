@@ -3,7 +3,7 @@
 
 import 'package:angular/angular.dart';
 
-import 'package:auth_mongo_example/client/app_component.template.dart' as ng;
+import 'package:auth_mongo_example/apps/home/home_app.template.dart' as ng;
 
 void main() {
   runApp(ng.AppComponentNgFactory);
