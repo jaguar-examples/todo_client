@@ -10,7 +10,7 @@ import 'todo_list/todo_list_component.dart';
 // Components info: https://webdev.dartlang.org/components
 
 @Component(
-  selector: 'my-app',
+  selector: 'dashboard',
   styleUrls: const ['app_component.css'],
   templateUrl: 'app_component.html',
   directives: const [TodoListComponent],
